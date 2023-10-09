@@ -190,6 +190,7 @@ figure{
     .block:first-child{
         grid-row: span 2;
         width:255px;
+        
     }
     .block:nth-child(2){
         height:240px;
@@ -225,6 +226,7 @@ figure{
         flex-direction: column;
         align-items: flex-start;
         width:255px;
+        padding:22px;
         
     }
     .report-for{
