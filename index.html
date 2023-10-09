@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Time tracking dashboard</h1>
+  </header>
+  <main class="container">
+    <div class="block">
+      <div class="person">
+        <figure>
+          <img src="images/image-jeremy.png" alt="photo of jeremy">
+          <figcaption>
+            <p class="report-for">
+              <span class="report">Report for</span>
+              <br>
+              <span class="name">Jeremy Robson</span>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="controls">
+        <label tabindex="0" class="btn daily-js" for="Daily">Daily</label>
+        <input  type="radio" name="time" id="Daily">
+        <label tabindex="0" class="btn weekly-js active" for="Weekly">Weekly</label>
+        <input type="radio" name="time" id="Weekly">
+        <label tabindex="0" class="btn monthly-js" for="Monthly">Monthly</label>
+        <input type="radio" name="time" id="Monthly">
+      </div>
+    </div>
+    <div class="block">
+      <div class="time-container">
+        <div class="left-side">
+          <h2 class="heading">Work</h2>
+          <p class="hours">32hrs</p>
+        </div>
+        <div class="right-side">
+              <img class="dots" src="images/icon-ellipsis.svg" alt="icon of dots">
+              <p class="total-time">Last Week - 36hrs</p>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="block">
+        <div class="time-container">
+            <div class="left-side">
+              <h2 class="heading">Play</h2>
+              <p class="hours">10hrs</p>
+            </div>
+            <div class="right-side">
+                  <img class="dots" src="images/icon-ellipsis.svg" alt="icon of dots">
+                  <p class="total-time">Last Week - 8hrs</p>
+            </div>
+          </div>
+    </div>
+    <div class="block">
+        <div class="time-container">
+            <div class="left-side">
+              <h2 class="heading">Study</h2>
+              <p class="hours">4hrs</p>
+            </div>
+            <div class="right-side">
+                  <img class="dots" src="images/icon-ellipsis.svg" alt="icon of dots">
+                  <p class="total-time">Last Week - 7hrs</p>
+            </div>
+          </div>
+    </div>
+    <div class="block">
+        <div class="time-container">
+            <div class="left-side">
+              <h2 class="heading">Exercise</h2>
+              <p class="hours">4hrs</p>
+            </div>
+            <div class="right-side">
+                  <img class="dots" src="images/icon-ellipsis.svg" alt="icon of dots">
+                  <p class="total-time">Last Week - 5hrs</p>
+            </div>
+          </div>
+    </div>
+    <div class="block">
+        <div class="time-container">
+            <div class="left-side">
+              <h2 class="heading">Social</h2>
+              <p class="hours">5hrs</p>
+            </div>
+            <div class="right-side">
+                  <img class="dots" src="images/icon-ellipsis.svg" alt="icon of dots">
+                  <p class="total-time">Last Week - 10hrs</p>
+            </div>
+          </div>
+    </div>
+    <div class="block">
+        <div class="time-container">
+            <div class="left-side">
+              <h2 class="heading">Self Care</h2>
+              <p class="hours">2hrs</p>
+            </div>
+            <div class="right-side">
+                  <img class="dots" src="images/icon-ellipsis.svg" alt="icon of dots">
+                  <p class="total-time">Last Week - 2hrs</p>
+            </div>
+          </div>
+    </div>
+   
+  </main>
+  <!-- Report for
+  Jeremy Robson
+
+  Daily
+  Weekly
+  Monthly
+
+  Work
+  5hrs
+  Previous - 7hrs 
+  32hrs
+  Previous - 36hrs
+  103hrs 
+  Previous - 128hrs 
+
+  Play
+  1hr 
+  Previous - 2hrs 
+  10hrs 
+  Previous - 8hrs 
+  23hrs 
+  Previous - 29hrs 
+
+  Study
+  0hrs 
+  Previous - 1hr 
+  4hrs 
+  Previous - 7hrs 
+  13hrs 
+  Previous - 19hrs 
+
+  Exercise
+  1hr 
+  Previous - 1hr 
+  4hrs 
+  Previous - 5hrs 
+  11hrs 
+  Previous - 18hrs 
+
+  Social
+  1hr 
+  Previous - 32hrs
+  5hrs 
+  Previous - 10hrs 
+  21hrs 
+  Previous - 23hrs 
+
+  Self Care
+  0hrs 
+  Previous - 1hr 
+  2hrs 
+  Previous - 2hrs 
+  7hrs 
+  Previous - 11hrs monthly -->
+    <script src="app.js"></script>
+  
+
+</body>
+</html>
